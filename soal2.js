@@ -1,4 +1,4 @@
-const checkTypeNumber = (givenNumber) => {
+function checkTypeNumber (givenNumber) {
   if (typeof givenNumber !== "number") {
     return "Error : Bro where is the parameter?";
   }
